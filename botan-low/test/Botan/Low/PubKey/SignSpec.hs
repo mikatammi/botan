@@ -30,6 +30,8 @@ pks =
     -- TODO: Dilithium-x-y
     , ("Dilithium", "", "")
     -- TODO: SPHINCS+
+    -- , ("SLH-DSA", "", "")
+    , ("ML-DSA", "", "")
     ]
 
 pkTestName :: (ByteString, ByteString, ByteString) -> String

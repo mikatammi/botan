@@ -10,6 +10,7 @@ pks =
     [ ( "RSA", "2048", "HKDF(SHA-256)")
     , ( "Kyber", "", "HKDF(SHA-256)")
     , ( "McEliece", "", "HKDF(SHA-256)")
+    , ( "ML-KEM", "ML-KEM-768", "")
     ]
 
 pkTestName :: (ByteString, ByteString, ByteString) -> String
